@@ -1,12 +1,13 @@
 public class Primitives {
     public static void main(String[] args){
 
+        /* *
             int numbers = 2; //Storage capacity is 4 byte
-            char word = 'A';
+            char word = 'A'; //2 bytes
             long largeint = 245632667746L; //8 bytes
             float marks = 99.69f;  //4 bytes
             double large_float_no = 22.23456754; //8 bytes
-            boolean check = true ;
+            boolean check = true ;  //1 byte
 
             System.out.println(numbers);
             System.out.println(word);
@@ -14,7 +15,14 @@ public class Primitives {
             System.out.println(marks);
             System.out.println(large_float_no);
             System.out.println(check);
+*/
 
+int a =10;
+int b =5;
+int ans = a*b / a-b;
+int ans = (a*b )/(a-b);
+
+    System.out.print(ans);
     }
     
 }
