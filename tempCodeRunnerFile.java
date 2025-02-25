@@ -1,4 +1,4 @@
-public class primitives {
+public class tempCodeRunnerFile {
     public static void main(String[] args){
 
             int numbers = 2; //Storage capacity is 4 byte
@@ -14,7 +14,5 @@ public class primitives {
             System.out.println(marks);
             System.out.println(large_float_no);
             System.out.println(check);
-
     }
-    
 }

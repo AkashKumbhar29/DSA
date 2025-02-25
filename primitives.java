@@ -19,10 +19,11 @@ public class Primitives {
 
 int a =10;
 int b =5;
-int ans = a*b / a-b;
-int ans = (a*b )/(a-b);
+int ansu = a*b / a-b;
+int an = (a*b )/(a-b);
 
-    System.out.print(ans);
+    System.out.println(ansu);
+    System.out.print(an);
     }
     
 }
