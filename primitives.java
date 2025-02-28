@@ -55,10 +55,22 @@ public class Primitives{
     //print no. 0 to 10
 public class Primitives{
     public static void main(String[] args) {
-        for(int counter =0;counter<11;counter = counter +1){
+        //for loop
+      //  for(int counter =0;counter<11;counter = counter +1){
            // System.out.println("Hello World");
           // System.out.println(counter);
-          System.out.print(counter+" ");
-        }
+         // System.out.print(counter+" ");}
+
+         //while loop
+        int i = 0 ;
+    /*     while(i<11){
+            System.out.println(i);
+            i = i + 1; //i++
+        }   */
+        //do while loop
+        do{
+            System.out.println(i);
+            i = i+2;
+        }while(i<11);
     }
 }
