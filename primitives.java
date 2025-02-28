@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 /* 
 public class Primitives {
     public static void main(String[] args){
@@ -30,7 +30,7 @@ int an = (a*b )/(a-b);
     
 }
 
-*/
+
 
 //Switch case
 public class Primitives{
@@ -48,6 +48,17 @@ public class Primitives{
             case 3: System.out.println("Bonjour");
             break;
             default: System.out.println("invalid Button");
+        }
+    }
+}
+    */
+    //print no. 0 to 10
+public class Primitives{
+    public static void main(String[] args) {
+        for(int counter =0;counter<11;counter = counter +1){
+           // System.out.println("Hello World");
+          // System.out.println(counter);
+          System.out.print(counter+" ");
         }
     }
 }
