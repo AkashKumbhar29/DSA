@@ -20,7 +20,8 @@ public class Functions {
     }
     public static void main(String args[]){
         System.out.println("Enter your name :");
-                Scanner sc = new Scanner(System.in);
+        System.out.println("Name should be of max 10 words");
+        Scanner sc = new Scanner(System.in);
             String name = sc.next();
         
 
