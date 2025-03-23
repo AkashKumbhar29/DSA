@@ -28,14 +28,14 @@ public class Functions {
         printMyName(name);
     }
 }
-*/
+
 //Make a function to add 2 numbers and return the sum
 import java.util.*;
 
 public class Functions{
     public static double addNumbers(double x,double y){
-        
-        return x+y;
+        double sum = x + y;
+        return sum;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -54,4 +54,51 @@ public class Functions{
     }
 }
 
+import java.util.*;
 
+public class Functions{
+    public static int multiplyNumbers(int a , int b){
+        int multiply = a * b;
+        return multiply;
+}
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number");
+        int a = sc.nextInt();
+
+        System.out.println("Enter the second number");
+        int b = sc.nextInt();
+
+        int multiply = multiplyNumbers(a,b);
+
+        System.out.println("The multiply is: " + multiply);
+
+        sc.close();
+    }
+}
+*/
+//factorial
+
+import java.util.*;
+
+public class Functions{
+    public static void factorialOfNumbers(int n){
+        if(n<0){
+            System.out.println("invalid input");
+        }
+        int factorial = 1;
+
+        for(int i=n;i>=n;i--){
+            factorial = factorial * i;
+        }
+        System.out.println(factorial);
+        return;
+    }
+        public static void main(String[] args){
+            Scanner sc = new Scanner(System.in);
+            int n = sc.nextInt();
+
+            factorialOfNumbers(n);
+        }
+
+    }
