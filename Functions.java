@@ -76,22 +76,23 @@ public class Functions{
         sc.close();
     }
 }
-*/
-//factorial
 
+//factorial
+*/
 import java.util.*;
 
 public class Functions{
     public static void factorialOfNumbers(int n){
         if(n<0){
             System.out.println("invalid input");
+            return;
         }
         int factorial = 1;
 
-        for(int i=n;i>=n;i--){
+        for(int i=n;i>0;i--){
             factorial = factorial * i;
         }
-        System.out.println(factorial);
+        System.out.println("Factorial of " +n+ " is " +factorial);
         return;
     }
         public static void main(String[] args){
@@ -102,3 +103,22 @@ public class Functions{
         }
 
     }
+        
+        /* 
+//Make a function to check if a number is prime or not
+import java.util.*;
+public class Functions{
+    public static int findPrime(int p){
+        if(p<0){
+            System.out.println("Invalid number");
+        }
+        else{
+
+            System.out.println();
+        }
+
+    }
+
+}
+
+*/
