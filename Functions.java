@@ -78,7 +78,7 @@ public class Functions{
 }
 
 //factorial
-*/
+
 import java.util.*;
 
 public class Functions{
@@ -104,13 +104,15 @@ public class Functions{
 
     }
         
-        /* 
+        
 //Make a function to check if a number is prime or not
+import java.lang.annotation.Retention;
 import java.util.*;
 public class Functions{
     public static int findPrime(int p){
         if(p<0){
             System.out.println("Invalid number");
+        
         }
         else{
 
@@ -118,7 +120,33 @@ public class Functions{
         }
 
     }
+    public static void main(String [] args){
+        scanner sc = new Scanner
+    }
 
 }
 
-*/
+// normal functions
+public class Functions{
+
+    //This is
+    public static void helloWorld(String name){
+        System.out.println("Hello " + name);
+        return;
+    }
+
+    public static void main(String[] args){
+        helloWorld("akash");
+    }
+}
+    */
+public class Functions{
+    //Function that returns a sum
+    public static int add(int a,int b){
+        return a+b; //This sends back the sum
+    }
+    public static void main(String[] args){
+        int result = add(4,5);  //storing teh result
+        System.out.println("Result :"+ result);
+    }
+}
