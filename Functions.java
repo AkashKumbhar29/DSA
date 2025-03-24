@@ -139,7 +139,7 @@ public class Functions{
         helloWorld("akash");
     }
 }
-    */
+    
 public class Functions{
     //Function that returns a sum
     public static int add(int a,int b){
@@ -150,3 +150,13 @@ public class Functions{
         System.out.println("Result :"+ result);
     }
 }
+        */
+// Write a function that takes an integer n and returns the nth Fibonacci number using recursion.
+     
+    public class Functions{
+        public static void fibonnaci(int f){
+            if(f<1) return
+                
+
+        
+    }
