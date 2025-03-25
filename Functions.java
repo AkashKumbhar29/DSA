@@ -150,13 +150,42 @@ public class Functions{
         System.out.println("Result :"+ result);
     }
 }
-        */
-// Write a function that takes an integer n and returns the nth Fibonacci number using recursion.
-     
-    public class Functions{
-        public static void fibonnaci(int f){
-            if(f<1) return
-                
-
         
+//Make a function to check if a number is prime or not. 
+public class Functions{
+    public static void prime(int n){
+        if(n<=2){
+            System.out.println("Invalid input");
+            return;
+        }
+        else if(n>2){
+            int i;
+           for(i=0;n%2==0;i++)
+                
+            }
+           System.out.println();
+           
+
+        }
     }
+}
+    */
+    import java.lang.annotation.Retention;
+import java.util.*;
+public class Functions{
+    public static int findPrime(int p){
+        if(p<0){
+            System.out.println("Invalid number");
+        
+        }
+        else{
+
+            System.out.println();
+        }
+
+    }
+    public static void main(String [] args){
+        scanner sc = new Scanner
+    }
+
+}
