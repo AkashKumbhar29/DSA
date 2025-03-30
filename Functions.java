@@ -169,6 +169,20 @@ public class Functions{
         }
     }
 }
+
+
+// normal functions
+public class Functions{
+
+    //This is
+    public static void helloWorld(String name){
+        System.out.println("Hello " + name);
+        return;
+    }
+
+    public static void main(String[] args){
+        helloWorld("akash");
+    }
     */
     import java.lang.annotation.Retention;
 import java.util.*;
@@ -185,7 +199,7 @@ public class Functions{
 
     }
     public static void main(String [] args){
-        scanner sc = new Scanner
+        scanner sc = new Scanner(next.in)
     }
 
 }
